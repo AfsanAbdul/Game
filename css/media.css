@@ -1,0 +1,355 @@
+@media screen  and (max-width: 1200px)  and (min-width: 992px) {
+    
+    .third-stage ul>li {
+        padding: 20px 15px;
+    }
+
+    .third-stage .btn-info,
+    .third-stage .btn-info:hover {
+        margin-right: 10px;
+    }
+
+    #last-choices, #all-adverts {
+        padding: 60px 35px 0 35px;
+    }
+
+    .alternativies_2 .col-md-2 {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .footer-body {
+        padding: 70px 35px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    header .navbar-header {
+        float: none;
+    }
+
+    header .navbar-left,.navbar-right {
+        float: none !important;
+    }
+
+    header .navbar-toggle {
+        display: block;
+        padding: 20px 17px;
+        margin-top: 17px;
+    }
+
+    header .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    header .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    header .navbar-nav {
+        float: none!important;
+        margin-top:0;
+    }
+
+    header .navbar-nav>li {
+        float: none;
+        border:1px solid transparent;
+        transition:.4s ease-in-out;
+    }
+
+    header .navbar-nav>li:hover {
+        border:1px solid #ddd !important;
+    }
+
+    header .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header .collapse.in{
+        display:block !important;
+    }
+
+    .second-stage .navbar-brand {
+        position: inherit;
+        width: unset;
+    }
+
+    .second-stage .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .input-hide {
+        display: none;
+    }
+
+    .hide-part{
+        display: inline;
+        transform: translateX(85%);
+        position: absolute;
+    }
+
+    #last-choices, #all-adverts {
+        padding: 60px 35px 0 35px;
+    }
+
+    .third-stage .container {
+        padding: 0 15px;
+    }
+
+    .third-stage .btn-info, .third-stage .btn-info:hover {
+        padding: 8px 11px;
+        margin-left:30px;
+        font-size: 13px;
+    }
+
+    .third-stage ul>li {
+        padding: 20px 30px;
+    }
+
+    .col-md-8.col-sm-12 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .third-stage ul>li>a {
+        font-size: 13px;
+    }
+
+    .alternativies_1 img {
+        height: 360px;
+        width: 310px;
+    }
+
+    .alternativies_2 .sm-change ,
+    .alternativies_1 .sm-change {
+        margin-bottom: 30px;
+    }
+
+    header .navbar-collapse {
+        margin-top: 20px;
+        -webkit-overflow-scrolling: touch;
+        border-top: 1px solid transparent;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    }
+
+    header .navbar {
+        min-height: 80px;
+    }
+
+    .footer-body {
+        padding: 50px 35px;
+    }
+    
+    footer {
+        font-size: 17px;
+    }
+
+    footer .footer-content_2  p {
+        margin-top: 50px;
+    }
+
+    #slider h2 {
+        font-size: 35px;
+    }
+
+    #slider .carousel-caption {
+        bottom: 25%;
+        left: 55%;
+    }
+} 
+
+
+@media  screen and (max-width: 768px) {
+	.alternativies_1 img {
+        height: 360px;
+        width: 100%;
+    }
+
+    .alternativies_2 .sm-change {
+        margin-bottom: 0 !important;
+    }
+	
+    .alternativies_2 .xs-change {
+        margin-bottom: 30px !important;
+    }
+
+    footer .footer-logo img {
+        width: 150px !important;
+        float: right;
+    }
+
+    #last-choices .headline-btn, #all-adverts .headline-btn {
+        padding: 6px 15px;
+    }
+
+      #last-choices, #all-adverts {
+        padding: 60px 20px 0 20px !important;
+    }
+
+     footer .fonts {
+        padding-top: 5px;
+    }
+
+     .hide-part {
+        transform: translateX(124%);
+        position: absolute;
+        width: 38%;
+        display: block;
+    } 
+}
+
+@media screen and (max-width: 660px) {
+    .col-md-4.col-sm-5.col-xs-5,
+    .col-md-8.col-sm-7.col-xs-7 {
+        width: 100% !important;
+    }
+    
+    footer .footer-content_2 p {
+        margin-top: 15px;
+    }
+
+    .foo-body-text.text-right {
+        text-align: left;
+    }
+
+    #slider .carousel-indicators li {
+        width: 12px;
+        height: 12px;
+        margin: 3px;
+    } 
+
+    #slider .carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+        margin: 3px;
+    }
+
+    #slider .carousel-indicators {
+        bottom: -5px;
+    }
+
+    #slider .carousel-caption {
+        bottom: 15%;
+        left: 50%;
+    }
+
+    #slider h2 {
+        font-size: 30px;
+    }
+
+    .third-stage ul>li {
+        padding: 20px 7px;
+    }
+
+    .third-stage .btn-info, .third-stage .btn-info:hover {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer .container , #slider .container ,#wrapper .container {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    /* .col-md-3.col-md-offset-3.col-sm-4.col-xs-4 {
+        width: 100%
+    } */
+    #last-choices, #all-adverts {
+        padding: 60px 10px 0 10px;
+    }
+
+    .col-md-6.col-sm-8.col-xs-8,
+    .col-md-3.col-sm-6.sm-change.col-xs-6,
+    .col-md-3.col-sm-6.col-xs-6 {
+        width: 100%
+    }
+
+    .footer-body {
+        padding: 50px 20px;
+    }
+
+    footer {
+        font-size: 15px !important;;
+    }
+
+    footer .list-inline>li {
+        padding-right:0;
+        padding-left: 0;
+    }
+
+    .buttn {
+        display: none;
+    } 
+
+    .btn-hide  {
+        display: block;
+        padding: 10px 0; 
+    }
+
+    .btn-hide .btn-info {
+        padding: 8px 11px;
+        margin-left:0; 
+        font-size: 13px;
+        width: 100%;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .third-stage ul>li {
+        padding: 13px 30px !important;
+    }
+
+    .carousel-inner .btn, .carousel-inner .btn:hover {
+        border-radius: 20px;
+        padding: 6px 20px;
+        margin-top: 0; 
+    }
+
+    #slider h2 {
+        font-size: 23px !important;
+    }
+
+    #slider h6 {
+        font-size: 18px;
+    }
+
+    .hide-part {
+        display:none;
+    }
+
+    .filter {
+        display: block;
+    }
+
+    .third-stage .btn-info, .third-stage .btn-info:hover {
+        margin-left: 0; 
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .col-md-2.col-sm-4.sm-change.xs-change.col-xs-6,
+    .col-md-2.col-sm-4.col-xs-6.xs-change {
+        width:100%;
+    }
+
+    footer .fa-2x {
+        font-size: 1.6em;
+    }
+
+
+    #last-choices h2, #all-adverts h2 {
+        font-size: 16px;
+        color: white;
+    }
+
+}
+
